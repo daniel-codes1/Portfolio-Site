@@ -1,0 +1,87 @@
+.navbar{
+    background: transparent;
+}
+
+.nav-link,.navbar-logo{
+    color: black !important;
+}
+
+.head-btn{
+  background:#0d6efd !important;
+  color:white !important;
+  border:none !important;
+  padding:12px 25px !important;
+  border: radius 8px !important;;
+
+}
+
+
+
+.hero{
+    background: linear-gradient(350deg,#44444E,#D3DAD9);
+    padding: 100px 0;
+    
+}
+
+.head1{
+    font-family:'GFS Didot' ,serif;
+    font-size: 3rem;
+}
+
+.hero img{
+    border-radius: 10px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.3);
+}
+
+.about-head{
+    font-size: 30px;
+}
+
+.contact-head{
+  font-family: 'GFS Didot' , serif;
+}
+
+/* Background */
+#about {
+  background: #f8f9fa;
+}
+
+/* Image hover effect */
+.about-img {
+  transition: transform 0.4s ease , box-shadow 0.4s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Text styling */
+#about h2 {
+  font-size: 2.5rem;
+}
+
+#about p {
+  color: #555;
+  font-size: 1.1rem;
+}
+
+/* Fade-in animation */
+#about {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card-body{
+  background-color: lightgray;
+}
+
+
+    
